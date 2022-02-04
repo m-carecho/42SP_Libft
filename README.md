@@ -8,8 +8,6 @@
     <img src="https://img.shields.io/github/last-commit/m-carecho/42SP_Libft?color=682998">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/m-carecho/42SP_Libft?color=682998">
-
 </p>
 
 <div align="center">
@@ -38,58 +36,58 @@ At 42 we're not allowed to use some standard libraries on our projects, so we ha
 
 ## Functions from `<ctype.h>`
 
-- [x] [`ft_isalpha`](https://github.com/m-carecho/42SP_Libft/blob/main//ft_isalpha.c)	- checks for an alphabetic character.
-- [x] [`ft_isdigit`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_isdigit.c)	- check for a digit (0 through 9).
-- [x] [`ft_isalnum`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_isalnum.c)	- checks for an alphanumeric character.
-- [x] [`ft_isascii`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_isascii.c)	- checks whether c fits into the ASCII character set.
-- [x] [`ft_isprint`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_isprint.c)	- checks for any printable character.
-- [x] [`ft_toupper`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_toupper.c)	- convert char to uppercase.
-- [x] [`ft_tolower`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_tolower.c)	- convert char to lowercase.
+- [x] [`ft_isalpha`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_isalpha.c)	- checks for an alphabetic character.
+- [x] [`ft_isdigit`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_isdigit.c)	- check for a digit (0 through 9).
+- [x] [`ft_isalnum`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_isalnum.c)	- checks for an alphanumeric character.
+- [x] [`ft_isascii`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_isascii.c)	- checks whether c fits into the ASCII character set.
+- [x] [`ft_isprint`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_isprint.c)	- checks for any printable character.
+- [x] [`ft_toupper`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_toupper.c)	- convert char to uppercase.
+- [x] [`ft_tolower`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_tolower.c)	- convert char to lowercase.
 
 ## Functions from `<string.h>`
 
-- [x] [`ft_strlen`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strlen.c)	- calculate the length of a string.
-- [x] [`ft_memset`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_memset.c)	- fill memory with a constant byte.
-- [x] [`ft_bzero`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_bzero.c)	- zero a byte string.
-- [x] [`ft_memcpy`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_memcpy.c)	- copy memory area.
-- [x] [`ft_memmove`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_memmove.c)	- copy memory area.
-- [x] [`ft_strlcpy`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strlcpy.c)	- copy string to a specific size.
-- [x] [`ft_strlcat`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strlcat.c)	- concatenate a string to a specific size.
-- [x] [`ft_strchr`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strchr.c)	- locate character in a string.
-- [x] [`ft_strrchr`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strrchr.c)	- locate character in a string.
-- [x] [`ft_strncmp`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strncmp.c)	- compare two strings.
-- [x] [`ft_memchr`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_memchr.c)	- scan memory for a character.
-- [x] [`ft_memcmp`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_memcmp.c)	- compare memory areas.
-- [x] [`ft_strnstr`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strnstr.c)	- locate a substring in a string.
-- [x] [`ft_strdup`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strdup.c)	- creates a duplicate for the string passed as a parameter.
+- [x] [`ft_strlen`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strlen.c)	- calculate the length of a string.
+- [x] [`ft_memset`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_memset.c)	- fill memory with a constant byte.
+- [x] [`ft_bzero`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_bzero.c)	- zero a byte string.
+- [x] [`ft_memcpy`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_memcpy.c)	- copy memory area.
+- [x] [`ft_memmove`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_memmove.c)	- copy memory area.
+- [x] [`ft_strlcpy`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strlcpy.c)	- copy string to a specific size.
+- [x] [`ft_strlcat`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strlcat.c)	- concatenate a string to a specific size.
+- [x] [`ft_strchr`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strchr.c)	- locate character in a string.
+- [x] [`ft_strrchr`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strrchr.c)	- locate character in a string.
+- [x] [`ft_strncmp`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strncmp.c)	- compare two strings.
+- [x] [`ft_memchr`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_memchr.c)	- scan memory for a character.
+- [x] [`ft_memcmp`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_memcmp.c)	- compare memory areas.
+- [x] [`ft_strnstr`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strnstr.c)	- locate a substring in a string.
+- [x] [`ft_strdup`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strdup.c)	- creates a duplicate for the string passed as a parameter.
 
 ## Functions from `<stdlib.h>`
-- [x] [`ft_atoi`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_atoi.c)	- convert a string to an integer.
-- [x] [`ft_calloc`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_calloc.c)	- allocates memory and sets its bytes' values to 0.
+- [x] [`ft_atoi`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_atoi.c)	- convert a string to an integer.
+- [x] [`ft_calloc`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_calloc.c)	- allocates memory and sets its bytes' values to 0.
 
 ## Non-standard functions
-- [x] [`ft_substr`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_substr.c)	- returns a substring from a string.
-- [x] [`ft_strjoin`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strjoin.c)	- concatenates two strings.
-- [x] [`ft_strtrim`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strtrim.c)	- trims the beginning and end of a string with a specific set of chars.
-- [x] [`ft_split`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_split.c)	- splits a string using a char as parameter.
-- [x] [`ft_itoa`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_itoa.c)	- converts a number into a string.
-- [x] [`ft_strmapi`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_strmapi.c)	- applies a function to each character of a string.
-- [x] [`ft_striteri`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_striteri.c)	- applies a function to each character of a string.
-- [x] [`ft_putchar_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_putchar_fd.c)	- output a char to a file descriptor.
-- [x] [`ft_putstr_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_putstr_fd.c)	- output a string to a file descriptor.
-- [x] [`ft_putendl_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_putendl_fd.c)	- output a string to a file descriptor, followed by a new line.
-- [x] [`ft_putnbr_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_putnbr_fd.c)	- output a number to a file descriptor.
+- [x] [`ft_substr`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_substr.c)	- returns a substring from a string.
+- [x] [`ft_strjoin`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strjoin.c)	- concatenates two strings.
+- [x] [`ft_strtrim`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strtrim.c)	- trims the beginning and end of a string with a specific set of chars.
+- [x] [`ft_split`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_split.c)	- splits a string using a char as parameter.
+- [x] [`ft_itoa`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_itoa.c)	- converts a number into a string.
+- [x] [`ft_strmapi`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_strmapi.c)	- applies a function to each character of a string.
+- [x] [`ft_striteri`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_striteri.c)	- applies a function to each character of a string.
+- [x] [`ft_putchar_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_putchar_fd.c)	- output a char to a file descriptor.
+- [x] [`ft_putstr_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_putstr_fd.c)	- output a string to a file descriptor.
+- [x] [`ft_putendl_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_putendl_fd.c)	- output a string to a file descriptor, followed by a new line.
+- [x] [`ft_putnbr_fd`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_putnbr_fd.c)	- output a number to a file descriptor.
 
 ## Linked list functions
 
-- [x] [`ft_lstnew`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstnew.c)	- creates a new list element.
-- [x] [`ft_lstadd_front`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstadd_front.c)	- adds an element at the beginning of a list.
-- [x] [`ft_lstsize`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstsize.c)	- counts the number of elements in a list.
-- [x] [`ft_lstlast`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstlast.c)	- returns the last element of the list.
-- [x] [`ft_lstadd_back`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstadd_back.c)	- adds an element at the end of a list.
-- [x] [`ft_lstclear`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstclear.c)	- deletes and free list.
-- [x] [`ft_lstiter`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstiter.c)	- applies a function to each element of a list.
-- [x] [`ft_lstmap`](https://github.com/m-carecho/42SP_Libft/blob/main/ft_lstmap.c)	- applies a function to each element of a list.
+- [x] [`ft_lstnew`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstnew.c)	- creates a new list element.
+- [x] [`ft_lstadd_front`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstadd_front.c)	- adds an element at the beginning of a list.
+- [x] [`ft_lstsize`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstsize.c)	- counts the number of elements in a list.
+- [x] [`ft_lstlast`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstlast.c)	- returns the last element of the list.
+- [x] [`ft_lstadd_back`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstadd_back.c)	- adds an element at the end of a list.
+- [x] [`ft_lstclear`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstclear.c)	- deletes and free list.
+- [x] [`ft_lstiter`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstiter.c)	- applies a function to each element of a list.
+- [x] [`ft_lstmap`](https://github.com/m-carecho/42SP_Libft/blob/main/function/ft_lstmap.c)	- applies a function to each element of a list.
 
 ---
 
