@@ -7,6 +7,9 @@
   <a href="https://github.com/m-carecho/42SP_Libft/commits/main">
     <img src="https://img.shields.io/github/last-commit/m-carecho/42SP_Libft?color=682998">
   </a>
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/m-carecho/42SP_Libft?color=682998">
+
 </p>
 
 <div align="center">
